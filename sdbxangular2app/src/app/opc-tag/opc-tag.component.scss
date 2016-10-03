@@ -1,0 +1,26 @@
+md-card {
+  float: left;
+  background: lightgrey;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background: image('../../assets/img/AF.png')
+}
+
+md-card-title {
+  font-size: 15px;
+}
+
+md-card img {
+
+  float:  right
+}
+
+md-card > md-card-actions > button {
+  background-color: white;
+}
+
+.md-card-container
+{
+  overflow: inherit;
+}
+
