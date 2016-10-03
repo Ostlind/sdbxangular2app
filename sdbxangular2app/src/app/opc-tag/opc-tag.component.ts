@@ -1,4 +1,4 @@
-import { Input, Component, OnInit, Inject, Injectable } from '@angular/core';
+import { Input, Component, OnInit } from '@angular/core';
 
 // import * as aflogo from '..\\..\\assets\\img\\AF.png';
 
@@ -8,13 +8,13 @@ import { Input, Component, OnInit, Inject, Injectable } from '@angular/core';
   templateUrl: './opc-tag.component.html',
   styleUrls: ['./opc-tag.component.scss'],
 })
-export class OpcTagComponent {
+export class OpcTagComponent implements OnInit {
 
   // AfLogo = aflogo;
 
-  @Input() TagName: string
-  @Input() Value: string
-  @Input() Quality: string
+  @Input() TagName: string;
+  @Input() Value: string;
+  @Input() Quality: string;
 
   constructor() {
 

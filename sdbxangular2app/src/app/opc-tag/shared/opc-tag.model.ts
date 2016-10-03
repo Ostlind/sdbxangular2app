@@ -1,17 +1,17 @@
 export class OpcTag {
 
-    public TagName: string
-    public ScanTime: number
-    public Value: string
-    public Quality : string
-    public DataType?: number
+    public TagName: string;
+    public ScanTime: number;
+    public Value: string;
+    public Quality: string;
+    public DataType?: number;
 
   constructor(
     public tagName: string,
     public scanTime: number,
     public value: string,
-    public quality : string,
-    public dataType?: number){
+    public quality: string,
+    public dataType?: number ) {
 
 
       this.TagName  = tagName;
@@ -39,7 +39,7 @@ export class OpcConfig {
     url: string;
     hubName: string;
     clientName: string;
-    opcTagList : OpcTag[];
+    opcTagList: OpcTag[];
 
 }
 

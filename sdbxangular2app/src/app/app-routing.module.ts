@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { OpcTagDashboardComponent } from './opc-tag-dashboard'
-import { AppComponent } from './app.component'
+import { OpcTagDashboardComponent } from './opc-tag-dashboard';
+import { AppComponent } from './app.component';
 const routes: Routes = [
 {
-  path:'',
+  path: '',
   redirectTo: '/app',
   pathMatch: 'full'
 },

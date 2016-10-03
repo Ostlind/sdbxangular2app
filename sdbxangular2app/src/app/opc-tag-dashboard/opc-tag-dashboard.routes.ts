@@ -1,10 +1,10 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { OpcTagComponent } from '../opc-tag/'
+import { OpcTagComponent } from '../opc-tag/';
 const appRoutes: Routes = [
 
   [  { path: 'opc-tag', component: OpcTagComponent  }]
-]
+];
 
 export const appRoutingProviders: any[] = [
 

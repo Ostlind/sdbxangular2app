@@ -1,16 +1,12 @@
-import { NgModule } from '@angular/core'
-import { CommonModule } from '@angular/common'
-import { FormsModule } from '@angular/forms'
+import { NgModule } from '@angular/core';
 import { OpcTagComponent } from '../opc-tag.component';
 import { SharedModule } from '../../shared/shared.module';
 
 // Material Design
-  
 
 @NgModule({
     imports: [SharedModule],
     exports: [OpcTagComponent],
-    declarations: [OpcTagComponent],
-    providers: [],
+    declarations: [OpcTagComponent]
 })
 export class OpcTagModule { }
