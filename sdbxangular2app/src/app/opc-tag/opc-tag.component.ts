@@ -1,6 +1,6 @@
 import { Input, Component, OnInit } from '@angular/core';
 
-// import * as aflogo from '..\\..\\assets\\img\\AF.png';
+ import * as aflogo from '';
 
 @Component({
 

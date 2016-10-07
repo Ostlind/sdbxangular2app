@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { Sdbxangular2appRoutingModule } from './app-routing.module';
 import { OpcTagDashboardModule } from './opc-tag-dashboard';
 import { OpcConfig, SignalrWindow, OpcTag, OpcTagModule } from './opc-tag/shared';
+import { TestComponent } from './test/test.component';
 
 
 let opcConfig = new OpcConfig();
@@ -47,7 +48,8 @@ opcConfig.opcTagList = [
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TestComponent
   ],
   imports: [
     SharedModule,
