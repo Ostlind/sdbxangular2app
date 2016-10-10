@@ -15,7 +15,7 @@ export class OpcTagComponent implements OnInit {
   @Input() TagName: string;
   @Input() Value: string;
   @Input() Quality: string;
-
+  
   constructor() {
 
   }
